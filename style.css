@@ -1,4 +1,3 @@
-/* reset basico que aprendi na aula */
 * {
   margin: 0;
   padding: 0;
@@ -42,7 +41,7 @@ nav ul li a:hover {
   color: #00e5ff;
 }
 
-/* destaque no link Contato igual ao rascunho (tinha uma caixinha) */
+/* destaque no link Contato igual ao rascunho */
 nav ul li.ativo a {
   border: 2px solid #00e5ff;
   padding: 5px 12px;
@@ -50,7 +49,7 @@ nav ul li.ativo a {
   color: #00e5ff;
 }
 
-/* ===== HERO ===== */
+/* ===== HOME ===== */
 #home {
   background-color: #0c148c;
   padding: 60px 40px;
@@ -59,18 +58,11 @@ nav ul li.ativo a {
   align-items: flex-start;
 }
 
-.hero-imagem {
-  width: 280px;
-  height: 200px;
-  background-color: #2d34a3;
-  border: 2px solid #00e5ff;
+.home-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 18px;
-  flex-shrink: 0;
 }
 
 .hero-texto {
